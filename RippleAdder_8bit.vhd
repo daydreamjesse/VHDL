@@ -4,9 +4,9 @@ USE work.FA_pkg.all; -- Package containing FullAdder
 
 ENTITY RippleAdder_8bit IS
 	PORT(	X, Y	:	IN std_logic_vector(7 DOWNTO 0);
-			S		:	OUT std_logic_vector(7 DOWNTO 0);
-			Cin	:	IN std_logic;
-			C_out	:	OUT std_logic);
+		S	:	OUT std_logic_vector(7 DOWNTO 0);
+		Cin	:	IN std_logic;
+		C_out	:	OUT std_logic);
 END RippleAdder_8bit;
 
  -- Ripple from first bit to last bit
